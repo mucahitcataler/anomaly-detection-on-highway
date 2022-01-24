@@ -15,5 +15,5 @@
 ### Rock Detected on Highway
 <img src="screenshots/00759.jpg" width="400"> <img src="screenshots/00769.jpg" width="400">
 
-### Car Detected in the Safety Strip on Highway
+### Vehicle Detected in the Safety Strip on Highway
 <img src="screenshots/01815.jpg" width="400"> <img src="screenshots/02113.jpg" width="400">
