@@ -158,7 +158,7 @@ triangle_cnt = np.array( [pt1, pt2, pt3, pt4] )
 cv.drawContours(detectionArea2, [triangle_cnt], 0, (255,255,255), -1)
 
 # Give the configuration and weight files for the model and load the network.
-net = cv.dnn.readNetFromDarknet('cfg path', 'weights path')
+net = cv.dnn.readNetFromDarknet('yolov3_testing.cfg', 'yolov3_training_last.weights')
 net.setPreferableBackend(cv.dnn.DNN_BACKEND_OPENCV)
 net.setPreferableTarget(cv.dnn.DNN_TARGET_CPU)
 
