@@ -14,8 +14,6 @@ warningColor = (0, 0, 175)
 lastWarningTime = 0
 camera = 1
 classesNames = ["vehicle", "animal", "rock"]
-
-# In Turkish as in the screenshots
 # classesNames = ["arac", "hayvan", "kaya"]
 
 # connect Arduino to write warning on lcd displays
@@ -27,10 +25,13 @@ def sendWarning(img, x, y, w, h, warningCode, cameraId=camera):
     message = "WARNING"
     if warningCode == 0:
         message = "A VEHICLE IS IN THE SAFETY STRIP"
+        # message = "HATALI SERIT DEGISIKLIGI TESPIT EDILDI"
     elif warningCode == 1:
         message = "AN ANIMAL DETECTED ON THE HIGHWAY"
+        # message = "YOLDA HAYVAN SURUSU TESPIT EDILDI"
     elif warningCode == 2:
         message = "A ROCK DETECTED ON THE HIGHWAY"
+        # message = "YOLDA TAS-KAYA PARCASI TESPIT EDILDI"
     cv.rectangle(img, (0, img.shape[0] - 30), (img.shape[1], img.shape[0]), warningColor, -1)
     cv.putText(img, message, (5, img.shape[0] - 7), cv.FONT_HERSHEY_TRIPLEX, 0.7, (255 ,255 ,255), 1)
     
