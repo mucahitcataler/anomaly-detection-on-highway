@@ -10,10 +10,10 @@
 ## Screenshots
 
 ### Animal Detected on Highway
-<img src="screenshots/00110.jpg" width="450"> <img src="screenshots/00120.jpg" width="450">
+<img src="screenshots/00110.jpg" width="400"> <img src="screenshots/00120.jpg" width="400">
 
 ### Rock Detected on Highway
-<img src="screenshots/00759.jpg" width="450"> <img src="screenshots/00769.jpg" width="450">
+<img src="screenshots/00759.jpg" width="400"> <img src="screenshots/00769.jpg" width="400">
 
 ### Car Detected in the Safety Strip on Highway
-<img src="screenshots/01815.jpg" width="450"> <img src="screenshots/02113.jpg" width="450">
+<img src="screenshots/01815.jpg" width="400"> <img src="screenshots/02113.jpg" width="400">
